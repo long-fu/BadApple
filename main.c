@@ -45,7 +45,7 @@ int main(int argc, const char * argv[]) {
     char *buf = malloc(size);
     memset(buf,0,size);
     
-    fp = fopen("/Users/flqy/Desktop/BadApple/BadApple/BADAPPLE.txt", "rb");
+    fp = fopen("../BADAPPLE.txt", "rb");
     if (fp == NULL) {
         printf("文件打开失败");
         return 1;
